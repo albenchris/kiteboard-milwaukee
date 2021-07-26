@@ -1,7 +1,7 @@
 const Header = () => {
     return (
         <header>
-            <h1>Kiteboard Milwaukee (Home)</h1>
+            <h1>Kiteboard Milwaukee</h1>
         </header>
     );
 }

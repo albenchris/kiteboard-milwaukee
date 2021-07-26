@@ -9,7 +9,7 @@ export default function Home() {
         <meta name='keywords' content='kiteboard, kiteboarding' />
       </Head>
       <main>
-        hi
+        (Home)
       </main>
     </div>
   )
