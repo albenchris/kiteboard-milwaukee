@@ -25,18 +25,18 @@ export default function Home() {
 
           <h2>Welcome to Kiteboarding in Milwaukee</h2>
           <p>
-          We hope you find this site a great resource for kiters of all abilities!
-          Whether you are into kiteboarding, kitesurfing, landboarding, snowkiting, or whatever with a kite to move you around, you are welcome here.
-          Your comments and suggestions will help make this a great site.
-          Just 
+            We hope you find this site a great resource for kiters of all abilities!
+            Whether you are into kiteboarding, kitesurfing, landboarding, snowkiting, or whatever with a kite to move you around, you are welcome here.
+            Your comments and suggestions will help make this a great site.
+            Just
             <a href='contact-section'>
               contact us here
             </a>
-          or send us an email directly to
+            or send us an email directly to
             <a href='email'>
               info@adventurekiteboarding.com
             </a>
-          or call 414-520-1493. Thanks & enjoy!
+            or call 414-520-1493. Thanks & enjoy!
           </p>
         </div>
 
@@ -53,6 +53,31 @@ export default function Home() {
               alt='Coupon for the kiteboarding shop'
             />
           </a>
+        </div>
+
+        <div>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/tw58Aq8pWis"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+
+        <div>
+          <h3>Air & Water Show Weekend SSYC</h3>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/tMI2nRn7-dA"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
         </div>
       </main>
     </div>
