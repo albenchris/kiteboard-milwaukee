@@ -30,11 +30,15 @@ export default function Home() {
             Your comments and suggestions will help make this a great site.
             Just
             <a href='contact-section'>
+              {' '}
               contact us here
+              {' '}
             </a>
             or send us an email directly to
             <a href='email'>
+              {' '}
               info@adventurekiteboarding.com
+              {' '}
             </a>
             or call 414-520-1493. Thanks & enjoy!
           </p>
@@ -78,6 +82,10 @@ export default function Home() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>
+        </div>
+      
+        <div>
+          
         </div>
       </main>
     </div>
