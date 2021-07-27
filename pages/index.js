@@ -40,7 +40,20 @@ export default function Home() {
           </p>
         </div>
 
-        <div></div>
+        <div>
+          <a href='http://www.adventurekiteboarding.com/'>
+            <h3>10% Cash Back on all orders</h3>
+          </a>
+          <a href='typo3temp/GB/8ed825b410.png' rel='lightbox[lb243]'>
+            <img
+              src='/images/efcf6fe204.png'
+              width='600'
+              height='276'
+              border='0'
+              alt='Coupon for the kiteboarding shop'
+            />
+          </a>
+        </div>
       </main>
     </div>
   )
