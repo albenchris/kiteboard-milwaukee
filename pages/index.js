@@ -83,13 +83,59 @@ export default function Home() {
             allowFullScreen
           ></iframe>
         </div>
-      
+
         <div>
           <a href='http://www.adventurekiteboarding.com/ozone-chrono-v2-foil-kite/'>
             {/* !!!!!!!!!!!!!!!! 404 error here !!!!!!!!!!!!!!!!!!!!! */}
             <h3>Ozone Chrono V2 foil kites in stock Now!</h3>
-          </a>
 
+          </a>
+          <a href='/images/0d315f6162.png' rel='lightbox[lb208]'>
+            <img
+              src='/images/1cd9313e87.jpg'
+              width='300'
+              height='300'
+              border='0'
+              alt='Ozone Chrono V2 foil kite'
+            />
+          </a>
+          <p>
+            A great option for lighter wind days, high speeds when the wind picks up, and gobs of upwind ability.
+          </p>
+        </div>
+
+        <div>
+          <a href='contact-section'>
+            <h3>Trade in Your Old Kites & Boards</h3>
+          </a>
+          <p>
+            We will make you a good offer on your old gear.
+            It doesn't matter how beat up, abused, torn, or ugly it is.
+            The worse the better.
+            We actually want all unsafe or questionable gear off our beaches.
+            It keeps you and the public safer.
+            Get a credit on new equipment for your old gear.
+          </p>
+          <p>
+            414-760-1493 - or - 414-520-1493
+            <br/>
+            sales@adventurekiteboarding.com
+          </p>
+        </div>
+
+        <div>
+          <a href='http://www.adventurekiteboarding.com/kiteboarding-products/'>
+            <h3>Combine your Ozone Chrono with an MHL Lift hydrofoil for the pinnacle experience</h3>
+          </a>
+          <img
+            src='/images/e0834478d4.jpg'
+            width='600'
+            height='400'
+            border='0'
+
+            alt='' // come back to this
+          />
+          <p>The closest thing to a Hoverboard yet invented!</p>
         </div>
       </main>
     </div>
