@@ -85,7 +85,11 @@ export default function Home() {
         </div>
       
         <div>
-          
+          <a href='http://www.adventurekiteboarding.com/ozone-chrono-v2-foil-kite/'>
+            {/* !!!!!!!!!!!!!!!! 404 error here !!!!!!!!!!!!!!!!!!!!! */}
+            <h3>Ozone Chrono V2 foil kites in stock Now!</h3>
+          </a>
+
         </div>
       </main>
     </div>
