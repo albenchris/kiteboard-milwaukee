@@ -1,20 +1,24 @@
 import Footer from './Footer';
 import Header from './Header';
+import Nav from './Nav';
 import styles from '../styles/Layout.module.css';
 
 const Layout = ({ children }) => {
 
 
     return (
-        <div className={styles.container}>
-            <Header/>
+        <>
+            <Nav />
+            <div className={styles.container}>
+                {/* <Header /> */}
 
-            <main className={styles.main}>
-                {children}
-            </main>
+                <main className={styles.main}>
+                    {children}
+                </main>
 
-            <Footer/>
-        </div>
+                <Footer />
+            </div>
+        </>
     );
 }
 
