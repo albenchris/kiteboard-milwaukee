@@ -8,7 +8,7 @@ export default function Home() {
         <title>Kiteboard Milwaukee</title>
         <meta name='keywords' content='kiteboard, kiteboarding' />
       </Head>
-      <main id='main-content'>
+      <section>
 
         (Home)
 
@@ -137,7 +137,7 @@ export default function Home() {
           />
           <p>The closest thing to a Hoverboard yet invented!</p>
         </div>
-      </main>
+      </section>
     </div>
   )
 }
