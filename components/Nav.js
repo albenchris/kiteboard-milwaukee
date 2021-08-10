@@ -1,8 +1,9 @@
 import Link from 'next/link';
+import navStyles from '../styles/Nav.module.css';
 
 const Nav = () => {
     return (
-        <nav>
+        <nav className={navStyles.nav}>
             <div className='logo'>
                 <h1>Kiteboard Milwaukee</h1>
             </div>
