@@ -60,6 +60,8 @@
         width: 30%;
         min-width: 120px;
         font-size: 0.8em;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
     }
 }
 

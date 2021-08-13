@@ -2,6 +2,11 @@ import Link from 'next/link';
 import navStyles from '../styles/Nav.module.css';
 
 const Nav = () => {
+
+    const burgerHandler = () => {
+        console.log('hello');
+    };
+
     return (
         <nav className={navStyles.nav}>
             <div className={navStyles.logo}>
@@ -40,7 +45,10 @@ const Nav = () => {
             </ul>
 
 
-            <div className={navStyles.burger}>
+            <div
+                className={navStyles.burger}
+                onClick={burgerHandler}
+            >
                 <div></div>
                 <div></div>
                 <div></div>
