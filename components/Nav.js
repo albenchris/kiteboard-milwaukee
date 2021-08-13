@@ -4,7 +4,7 @@ import navStyles from '../styles/Nav.module.css';
 const Nav = () => {
     return (
         <nav className={navStyles.nav}>
-            <div className='logo'>
+            <div className={navStyles.logo}>
                 <h1>Kiteboard Milwaukee</h1>
             </div>
             <ul>
@@ -13,21 +13,25 @@ const Nav = () => {
                         Home
                     </Link>
                 </li>
-                {/* <li>
+                
+                <li>
                     <Link href='/wind'>
                         Wind
                     </Link>
-                </li> */}
-                {/* <li>
+                </li>
+                
+                <li>
                     <Link href='/lessons'>
                         Lessons
                     </Link>
-                </li> */}
-                {/* <li>
+                </li>
+                
+                <li>
                     <Link href='/contact'>
                         Contact
                     </Link>
-                </li> */}
+                </li>
+
                 <li>
                     <Link href='https://www.adventurekiteboarding.com/'>
                         Shop
