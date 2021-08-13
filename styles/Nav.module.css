@@ -28,11 +28,24 @@
     letter-spacing: 3px;
 }
 
+.burger div {
+    background-color: #fff;
+    width: 17px;
+    height: 2px;
+    margin: 3px;
+}
+
+.burger {
+    display: none;
+}
+
+
 @media screen and (max-width: 820px) {
 
-    .logo {
-        width: 100vw;
-        font-size: 0.7em;
+    .burger {
+        display: flex;
+        flex-direction: column;
+
     }
 
     .nav ul {
@@ -48,4 +61,20 @@
         min-width: 120px;
         font-size: 0.8em;
     }
+}
+
+@media screen and (max-width: 383px) {
+ 
+    .logo {
+        width: 100vw;
+        font-size: 0.7em;
+    }
+
+    .burger div {
+        background-color: #fff;
+        width: 15px;
+        height: 1px;
+        margin: 2px;
+    }
+    
 }

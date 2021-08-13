@@ -13,19 +13,19 @@ const Nav = () => {
                         Home
                     </Link>
                 </li>
-                
+
                 <li>
                     <Link href='/wind'>
                         Wind
                     </Link>
                 </li>
-                
+
                 <li>
                     <Link href='/lessons'>
                         Lessons
                     </Link>
                 </li>
-                
+
                 <li>
                     <Link href='/contact'>
                         Contact
@@ -38,7 +38,16 @@ const Nav = () => {
                     </Link>
                 </li>
             </ul>
+
+
+            <div className={navStyles.burger}>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
         </nav>
+
     );
 }
 
