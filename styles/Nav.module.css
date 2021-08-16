@@ -30,9 +30,13 @@
 
 .burger div {
     background-color: #fff;
-    width: 17px;
+    /* width: 17px;
     height: 2px;
-    margin: 3px;
+    margin: 3px; */
+
+    width: 100%;
+    height: 2px;
+    margin: 0;
 }
 
 .burger {
@@ -45,12 +49,16 @@
     .burger {
         display: flex;
         flex-direction: column;
-
+        justify-content: space-around;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
     }
 
     .nav ul {
         position: absolute;
         right: 0px;
+        z-index: 99;
         height: 96vh;
         top: 4vh;
         background-color: #000;
@@ -72,11 +80,6 @@
         font-size: 0.7em;
     }
 
-    .burger div {
-        background-color: #fff;
-        width: 15px;
-        height: 1px;
-        margin: 2px;
-    }
+    
     
 }
