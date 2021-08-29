@@ -1,10 +1,16 @@
+import { useState } from 'react';
 import Link from 'next/link';
 import navStyles from '../styles/Nav.module.css';
 
 const Nav = () => {
+    const [navClass, setNavClass] = useState('closed');
 
-    const burgerHandler = () => {
-        console.log('hello');
+    const burgerHandler = async () => {
+        if (navClass === 'closed') await setNavClass('open');
+        if (navClass === 'open') await setNavClass('closed');
+        console.log('nav class:', navClass);
+
+
     };
 
     return (
@@ -12,7 +18,10 @@ const Nav = () => {
             <div className={navStyles.logo}>
                 <h1>Kiteboard Milwaukee</h1>
             </div>
-            <ul>
+            <ul className={
+                navClass === 'open' ? navStyles.open : navStyles.closed
+                // navClass
+                }>
                 <li>
                     <Link href='/'>
                         Home
